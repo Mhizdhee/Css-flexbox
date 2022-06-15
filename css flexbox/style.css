@@ -1,0 +1,66 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+ body{
+    background-color: rgb(240, 228, 217);
+} 
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+    height: 100vh;
+}
+
+.firstdiv{
+    background-color: white;
+    /* text-align: center; */
+    padding: 20px;
+    width: 50%;
+    
+}
+.firstdiv h3{
+    color: rgb(0, 204, 255);
+    font-size: 20px;
+}
+
+.pfirst{
+    color: rgb(240, 222, 66);
+    padding: 10px 10px;
+}
+.seconddiv{
+    flex-direction: row;
+    display: flex;
+    width: 50%;
+}
+
+.seconddiv-left{
+    background-color: rgb(11, 142, 182);
+    padding: 20px;
+    color: white;
+    width: 50%;
+
+}
+.seconddiv-left button{
+    background-color: rgb(224, 224, 10);
+padding: 10px;
+border: none;
+width: 50%;
+margin: 15px;
+
+}
+
+.seconddiv-right{
+    background-color: rgb(14, 164, 184);
+    padding: 20px;
+    color: white;
+    width: 50%;
+    
+
+
+}   
